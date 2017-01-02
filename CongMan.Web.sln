@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CongMan.Web", "CongMan.Web\CongMan.Web.csproj", "{7A289C9F-97E6-4517-985B-83EBA2274E67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CongMan.Model", "CongMan.Model\CongMan.Model.csproj", "{AAA2082D-0750-411C-8EEF-A84512DFC19F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CongMan.Repository", "CongMan.Repository\CongMan.Repository.csproj", "{30500E9C-CA79-4E3F-8935-8A52044F9DE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7A289C9F-97E6-4517-985B-83EBA2274E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A289C9F-97E6-4517-985B-83EBA2274E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A289C9F-97E6-4517-985B-83EBA2274E67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAA2082D-0750-411C-8EEF-A84512DFC19F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA2082D-0750-411C-8EEF-A84512DFC19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA2082D-0750-411C-8EEF-A84512DFC19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA2082D-0750-411C-8EEF-A84512DFC19F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30500E9C-CA79-4E3F-8935-8A52044F9DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30500E9C-CA79-4E3F-8935-8A52044F9DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30500E9C-CA79-4E3F-8935-8A52044F9DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30500E9C-CA79-4E3F-8935-8A52044F9DE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

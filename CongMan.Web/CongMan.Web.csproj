@@ -277,6 +277,16 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CongMan.Model\CongMan.Model.csproj">
+      <Project>{aaa2082d-0750-411c-8eef-a84512dfc19f}</Project>
+      <Name>CongMan.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CongMan.Repository\CongMan.Repository.csproj">
+      <Project>{30500e9c-ca79-4e3f-8935-8a52044f9de9}</Project>
+      <Name>CongMan.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
